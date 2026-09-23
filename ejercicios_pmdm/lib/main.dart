@@ -1,16 +1,20 @@
 import 'package:flutter/material.dart';
+import 'screens/menu_lateral.dart';
 
-void main() {
-  runApp(const MainApp());
-}
+void main() => runApp(const MyApp());
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(body: Center(child: Text('Hello World!'))),
+    return MaterialApp(
+      title: 'Ejercicos Flutter',
+      home: Scaffold(
+        appBar: AppBar(title: const Text("Ejercicos Flutter")),
+        drawer: const MenuLateral(),
+        body: const Center(child: Text("Parte principal")),
+      ),
     );
   }
 }
