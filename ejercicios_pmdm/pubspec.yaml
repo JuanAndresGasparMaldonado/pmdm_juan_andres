@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  google_fonts: ^9.0.0
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +18,14 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+  - assets/img/foto_menu.jpg
+  - assets/img/foto_ejercicio_2.jpg
+  - assets/img/foto_logo_python.webp
+  - assets/img/foto_logo_flutter.png
+  - assets/img/foto_logo_java.webp
+  - assets/img/foto_futbol.jpg
+  - assets/img/foto_baloncesto.jpg
+  - assets/img/foto_tenis.jpg
+  - assets/img/foto_golf.jpg
+  - assets/img/foto_surf.jpg
