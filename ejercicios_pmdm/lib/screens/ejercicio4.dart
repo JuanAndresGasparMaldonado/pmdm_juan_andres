@@ -1,3 +1,4 @@
+import 'package:ejercicios_pmdm/widgets/menu_lateral.dart';
 import 'package:flutter/material.dart';
 
 class Ejercicio4 extends StatelessWidget {
@@ -6,7 +7,9 @@ class Ejercicio4 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: const MenuLateral(),
       appBar: AppBar(title: const Text('Cuarto Ejercicio')),
+      // fila con 5 iconos de vehiculos repartidos con el mismo espacio
       body: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [

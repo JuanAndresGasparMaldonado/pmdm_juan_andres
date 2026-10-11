@@ -7,6 +7,7 @@ environment:
   sdk: ^3.13.3
 
 dependencies:
+  auto_size_text: ^3.0.0
   flutter:
     sdk: flutter
   google_fonts: ^9.0.0
@@ -17,6 +18,15 @@ dev_dependencies:
   flutter_lints: ^6.0.0
 
 flutter:
+  fonts:
+    - family: sewer
+      fonts:
+        - asset: assets/fonts/sewer.ttf
+    - family: freedom
+      fonts:
+        - asset: assets/fonts/Freedom-10eM.ttf
+    
+
   uses-material-design: true
   assets:
   - assets/img/foto_menu.jpg
@@ -29,3 +39,11 @@ flutter:
   - assets/img/foto_tenis.jpg
   - assets/img/foto_golf.jpg
   - assets/img/foto_surf.jpg
+  - assets/img/paisaje1.jpg
+  - assets/img/paisaje2.jpg
+  - assets/img/perro1.jpg
+  - assets/img/perro2.jpg
+  - assets/img/perro3.jpg
+  - assets/img/perro4.jpg
+  - assets/img/perro5.jpg
+  - assets/img/perro6.jpg
