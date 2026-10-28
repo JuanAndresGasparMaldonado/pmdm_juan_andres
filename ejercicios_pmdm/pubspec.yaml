@@ -10,6 +10,7 @@ dependencies:
   auto_size_text: ^3.0.0
   flutter:
     sdk: flutter
+  flutter_launcher_icons: ^0.14.4
   google_fonts: ^9.0.0
 
 dev_dependencies:
@@ -47,3 +48,8 @@ flutter:
   - assets/img/perro4.jpg
   - assets/img/perro5.jpg
   - assets/img/perro6.jpg
+
+flutter_icons:
+  image_path: 'assets/icon/app_icon.png'
+  android: true
+  ios: true
