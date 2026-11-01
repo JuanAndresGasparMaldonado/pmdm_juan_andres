@@ -28,7 +28,7 @@ class PerfilHeader extends StatelessWidget {
               const Column(
                 children: [
                   Text(
-                    '7,850',
+                    '1,850',
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
                   ),
                   Text('Posts'),
