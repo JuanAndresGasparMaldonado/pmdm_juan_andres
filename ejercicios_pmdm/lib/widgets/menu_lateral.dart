@@ -10,6 +10,8 @@ import '../screens/ejercicio6.dart';
 import '../screens/ejercicio7.dart';
 import '../screens/ejercicio8.dart';
 import '../screens/ejercicio9.dart';
+import '../screens/ejercicio10.dart';
+import '../screens/ejercicio11.dart';
 
 // menu lateral (drawer) que se usa en todas las pantallas
 class MenuLateral extends StatelessWidget {
@@ -129,6 +131,28 @@ class MenuLateral extends StatelessWidget {
               Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (BuildContext context) => const Ejercicio9(),
+                ),
+              );
+            },
+          ),
+          ListTile(
+            title: const Text("Ejercicio 10"),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (BuildContext context) => const Ejercicio10(),
+                ),
+              );
+            },
+          ),
+          ListTile(
+            title: const Text("Ejercicio 11"),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (BuildContext context) => const Ejercicio11(),
                 ),
               );
             },
